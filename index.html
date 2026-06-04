@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Chic by Fanta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .services {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .services h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #3498db;
+        }
+
+        .service img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: #aaa;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mode Chic by Fanta</h1>
+        <p>Vêtements Femme - Robes, Sacs, Chaussures</p>
+    </header>
+
+    <section class="services">
+        <h2>Nouveautés de la semaine</h2>
+        <div class="grid">
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200/3498db/fff?text=Robe+Wax" alt="Robe Wax">
+                <h3>Robes Wax</h3>
+                <p>À partir de 8000 FCFA</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200/2c3e50/fff?text=Sac+Main" alt="Sac">
+                <h3>Sacs à main</h3>
+                <p>À partir de 5000 FCFA</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200/3498db/fff?text=Chaussures" alt="Chaussures">
+                <h3>Chaussures & Talons</h3>
+                <p>À partir de 7000 FCFA</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Commande via WhatsApp</h2>
+        <p>Marché de Niamana - Livraison à domicile</p>
+        <a href="https://wa.me/22394079630" class="btn-whatsapp">Voir le catalogue sur WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Mode Chic by Fanta | Paiement Orange Money / Wave</p>
+    </footer>
+</body>
+
+</html>
